@@ -1,0 +1,62 @@
+.footer {
+    width: 100%;
+    background: #333;
+    color: #fff;
+
+    .container {
+        width: 100%;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .info {
+            text-align: center;
+
+            p {
+                padding: 5px;
+            }
+
+            .author {
+                color: #F7D100;
+                text-decoration: none;
+            }
+
+            .api {
+                color: #F7D100;
+            }
+        }
+
+        .social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .item {
+                margin: 0px 10px;
+                font-size: 30px;
+                cursor: pointer;
+                transition: .2s all linear;
+
+                &:hover {
+                    color: #F7D100;
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .footer {
+        .container {
+            flex-direction: column;
+            
+            .social {
+                margin-top: 20px;
+            }
+        }
+    }
+    
+    }

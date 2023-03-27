@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.ghost { background-color: #7D66AE }
+.steel { background-color: #ABA9BE }
+.dragon { background-color: #5559CF; }
+.flying { background-color: #94B7F4 }
+.water { background-color: #46A9ED; }
+.ice { background-color: #94E3F1 }
+.grass { background-color: #75CA55 }
+.bug { background-color: #A8B736 }
+.normal { background-color: #C2B8A0 }
+.electric { background-color: #FAD33E }
+.ground { background-color: #C8AB63 }
+.rock { background-color: #A8865D }
+.fire { background-color: #EC8C3E }
+.fighting { background-color: #9B4840 }
+.dark { background-color: #5E4C4C}
+.psychic { background-color: #F5779E }
+.fairy { background-color: #F9A8EF }
+.poison { background-color: #A15AB1 }

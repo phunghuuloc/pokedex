@@ -1,0 +1,87 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    .container {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .image {
+                width: 100px;
+                height: 100px;
+            }
+
+            .text {
+                padding: 0px 10px;
+                font-size: 30px;
+                font-weight: 600;
+                text-shadow: 5px 5px 5px #F7D100;
+                color: #000;
+
+                span {
+                    color: #F7D100;
+                }
+            }
+        }
+
+        .search {
+            position: relative;
+
+            .button {
+                width: 40px;
+                height: 40px;
+                background: transparent;
+                border: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                color: #F7D100;
+                font-size: 20px;
+                cursor: pointer;
+
+                &:before {
+                    content: "";
+                    width: 1px;
+                    height: 20px;
+                    background: gray;
+                    position: absolute;
+                    top: 10px;
+                    right: 0;
+                }
+            }
+
+            .input {
+                width: 220px;
+                height: 40px;
+                padding: 0px 20px 0px 50px;
+                border:  1px solid gray;
+                border-radius: 15px;
+                font-size: 16px;
+                font-weight: 600;
+                color: gray;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+.header {
+    .container {
+        flex-direction: column;
+        padding: 0px 0px 10px;
+    }
+}
+
+}
